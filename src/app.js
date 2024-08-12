@@ -24,6 +24,6 @@ for (let p of pronoun) {
   }
 }
 
-combinations.forEach(combination => {
-  console.log(combinations);
-});
+for (let i = 0; i < combinations.length; i++) {
+  console.log(combinations[i]);
+}
